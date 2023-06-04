@@ -1,11 +1,12 @@
 <template>
     <div>
         <div class="common-style">
-            TypeScript类型标注指南
+           more index.vue
         </div>
     </div>
 </template>
 
 <script lang="ts" setup>
+import { reactive, ref, onMounted } from "vue";
 
 </script>

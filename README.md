@@ -24,4 +24,8 @@ You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/
 
 fork仓库地址 https://github.com/AnnGreen1/vue3-bigData
 
-本仓库计划使用vue3+typescript 仿写该项目
+本仓库计划使用vue3+typescript 仿写该项目。
+
+
+1. 安装依赖
+echarts、echarts-liquidfill（水球图）、echarts-wordcloud（词云）、mockjs、vuex。
