@@ -5,13 +5,13 @@ import { RouteRecordRaw } from "vue-router";
 const bigdata: RouteRecordRaw[] = [
   {
     path: "/",
-    // component: Layout,
-    // redirect: "/homepage",
+    component: () => import("@/layouts/Index.vue"),
+    redirect: "/homepage",
     children: [
       {
         path: "/homepage",
         name: "homepage",
-        component: () => import("@/views/homepage/index.vue"),
+        component: () => import("@/views/homepage/Index.vue"),
         meta: {
           title: "首页",
         },
@@ -19,7 +19,7 @@ const bigdata: RouteRecordRaw[] = [
       {
         path: "/more",
         name: "more",
-        component: () => import("@/views/more/index.vue"),
+        component: () => import("@/views/more/Index.vue"),
         meta: {
           title: "更多",
         },

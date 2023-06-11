@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="home">
         <div class="common-style">
            more index.vue
         </div>
