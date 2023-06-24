@@ -1,13 +1,13 @@
 <template>
   <div class="home-container">
-    {{ more }}
+    {{ home }}
   </div>
 </template>
 
 <script>
 export default {
   setup(props, context) {
-    const more = ref("more");
+    const home = ref("home");
   },
 };
 </script>
