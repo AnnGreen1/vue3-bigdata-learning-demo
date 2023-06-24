@@ -5,9 +5,15 @@
 </template>
 
 <script>
+import { ref } from "vue"
 export default {
-  setup(props, context) {
+  setup() {
     const more = ref("more");
+    more.value +='!'
+
+    return {
+      more
+    }
   },
 };
 </script>
